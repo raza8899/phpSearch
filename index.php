@@ -1,7 +1,7 @@
 <?php 
 require_once "readJson.php";
 require_once "pdo.php";
-$stmt = $pdo->query("DELETE FROM BookingData");
+
 //Query for creation of Table
 //CREATE table BookingData(partId integer NOT NULL, employeeName varchar(128),employeeEmail varchar(128),eventId integer, eventName varchar(128),participationFee varchar(128),eventDate DATE,PRIMARY KEY(partId));
 
@@ -88,7 +88,7 @@ margin:20px;
 
 		echo('<div class="col-12 m-10" >');
 		echo('<table class="table table-borderless m-4"  >');	
-		echo('<thead class="thead-light">');
+		echo('<thead class="thead-light ">');
 		echo('<tr><th>Part. Id</th>');
 		echo('<th>Employee Name</th>');
 		echo('<th>Employee Email</th>');
